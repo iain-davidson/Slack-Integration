@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="live_feed=true" label="Slack System" max_length="40" name="x_20552_slack_system" type="collection">
+        <element default="true" label="Active" mandatory="true" max_length="40" name="active" type="boolean"/>
+        <element label="API path" max_length="1000" name="api_path" type="url"/>
+        <element label="API token" max_length="200" name="api_token" type="string"/>
+        <element choice="1" label="Environment" max_length="40" name="environment" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Production" sequence="0" value="Production"/>
+                <element inactive_on_update="false" label="Sandbox" sequence="1" value="Sandbox"/>
+            </choice>
+        </element>
+        <element label="SCIM path" max_length="1000" name="scim_path" type="url"/>
+        <element label="SCIM token" max_length="200" name="scim_token" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Team id" mandatory="true" max_length="40" name="team_id" type="string"/>
+        <element display="true" label="Team name" mandatory="true" max_length="100" name="team_name" type="string" unique="true"/>
+        <index name="index">
+            <element name="team_name"/>
+        </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>
