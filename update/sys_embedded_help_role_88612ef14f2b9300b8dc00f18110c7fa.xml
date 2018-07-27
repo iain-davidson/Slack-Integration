@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>10</order>
+        <role display_value="x_20552_slack.slack_admin" name="x_20552_slack.slack_admin">b4416af14f2b9300b8dc00f18110c7e9</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-07-27 20:19:11</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>88612ef14f2b9300b8dc00f18110c7fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>b4416af14f2b9300b8dc00f18110c7e9</sys_name>
+        <sys_package display_value="Slack" source="x_20552_slack">8540ae314f2b9300b8dc00f18110c71b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Slack">8540ae314f2b9300b8dc00f18110c71b</sys_scope>
+        <sys_update_name>sys_embedded_help_role_88612ef14f2b9300b8dc00f18110c7fa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-07-27 20:19:11</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

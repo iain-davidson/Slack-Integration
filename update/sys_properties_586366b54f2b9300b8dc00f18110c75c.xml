@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>&lt;b&gt;slack.integration.debug.source&lt;/b&gt;&#13;
+&lt;br/&gt;</description>
+        <ignore_cache>true</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_20552_slack.slack.integration.debug.source</name>
+        <read_roles>x_20552_slack.slack_admin,admin,x_20552_slack.slack_user</read_roles>
+        <suffix>slack.integration.debug.source</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-07-27 20:29:58</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>586366b54f2b9300b8dc00f18110c75c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_20552_slack.slack.integration.debug.source</sys_name>
+        <sys_package display_value="Slack" source="x_20552_slack">8540ae314f2b9300b8dc00f18110c71b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Slack">8540ae314f2b9300b8dc00f18110c71b</sys_scope>
+        <sys_update_name>sys_properties_586366b54f2b9300b8dc00f18110c75c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-07-27 20:29:58</sys_updated_on>
+        <type>string</type>
+        <value>SlackAPI</value>
+        <write_roles>x_20552_slack.slack_admin,admin</write_roles>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=586366b54f2b9300b8dc00f18110c75c"/>
+</record_update>

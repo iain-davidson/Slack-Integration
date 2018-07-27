@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_20552_slack.SlackAPIShared</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>SlackAPIShared</name>
+        <script><![CDATA[var SlackAPIShared = Class.create();
+SlackAPIShared.prototype = {
+    initialize: function() {
+		this.aDebug = [];
+		this.sDebug = gs.getProperty('slack.integration.debug.source','SlackAPI');
+		this.bDebug = gs.getProperty('slack.integration.debug.active','true');
+    },
+
+    type: 'SlackAPIShared'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-07-27 20:24:33</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>626222754f2b9300b8dc00f18110c7cc</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>SlackAPIShared</sys_name>
+        <sys_package display_value="Slack" source="x_20552_slack">8540ae314f2b9300b8dc00f18110c71b</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Slack">8540ae314f2b9300b8dc00f18110c71b</sys_scope>
+        <sys_update_name>sys_script_include_626222754f2b9300b8dc00f18110c7cc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-07-27 20:27:28</sys_updated_on>
+    </sys_script_include>
+</record_update>

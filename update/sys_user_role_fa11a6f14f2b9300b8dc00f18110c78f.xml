@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description>access slack integration as a user</description>
+        <elevated_privilege>false</elevated_privilege>
+        <encryption_context/>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_20552_slack.slack_user</name>
+        <requires_subscription>-1</requires_subscription>
+        <scoped_admin>false</scoped_admin>
+        <suffix>slack_user</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-07-27 20:18:29</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>fa11a6f14f2b9300b8dc00f18110c78f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_20552_slack.slack_user</sys_name>
+        <sys_package display_value="Slack" source="x_20552_slack">8540ae314f2b9300b8dc00f18110c71b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Slack">8540ae314f2b9300b8dc00f18110c71b</sys_scope>
+        <sys_update_name>sys_user_role_fa11a6f14f2b9300b8dc00f18110c78f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-07-27 20:18:29</sys_updated_on>
+    </sys_user_role>
+</record_update>
